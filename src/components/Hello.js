@@ -6,11 +6,11 @@ class Hello extends Component {
     console.log("props", this.props);
     return (
       < div className="hello-div">
-        <button onClick={this.props.changeH}>h</button>
-        <button onClick={this.props.changeE}>e</button>
-        <button onClick={this.props.changeL1}>l</button>
-        <button onClick={this.props.changeL2}>l</button>
-        <button onClick={this.props.changeO}>o</button>
+        <div onClick={this.props.changeH}>h</div>
+        <div onClick={this.props.changeE}>e</div>
+        <div onClick={this.props.changeL1}>l</div>
+        <div onClick={this.props.changeL2}>l</div>
+        <div onClick={this.props.changeO}>o</div>
       </div>
     );
   }
