@@ -38,10 +38,32 @@ function l1Reducer(state = defaultState.l1, action) {
     }
 }
 
+function l2Reducer(state = defaultState.l2, action) {
+    console.log('state', state);
+    switch (action.type) {
+        case 'CHANGE_L2':
+        return state + 1;
+        default:
+        return state;
+    }
+}
+
+function oReducer(state = defaultState.o, action) {
+    console.log('state', state);
+    switch (action.type) {
+        case 'CHANGE_O':
+        return state + 1;
+        default:
+        return state;
+    }
+}
+
 const rootReducer = combineReducers({
     h: hReducer,
     e: eReducer,
-    l1: l1Reducer
+    l1: l1Reducer,
+    l2: l2Reducer,
+    o: oReducer,
 });
    
 export default rootReducer;

@@ -5,13 +5,13 @@ class Hello extends Component {
   render() {
     console.log("props", this.props);
     return (
-      <>
+      < div className="hello-div">
         <button onClick={this.props.changeH}>h</button>
         <button onClick={this.props.changeE}>e</button>
         <button onClick={this.props.changeL1}>l</button>
-        <button>l</button>
-        <button>o</button>
-      </>
+        <button onClick={this.props.changeL2}>l</button>
+        <button onClick={this.props.changeO}>o</button>
+      </div>
     );
   }
 }
