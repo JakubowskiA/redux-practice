@@ -15,6 +15,7 @@ class Hello extends Component {
 
     console.log('a', colorMap[this.props.h])
     return (
+      <>
       < div className="hello-div">
         <div onClick={this.props.changeH} className={colorMap[this.props.h]}>h</div>
         <div onClick={this.props.changeE} className={colorMap[this.props.e]}>e</div>
@@ -22,6 +23,8 @@ class Hello extends Component {
         <div onClick={this.props.changeL2} className={colorMap[this.props.l2]}>l</div>
         <div onClick={this.props.changeO} className={colorMap[this.props.o]}>o</div>
       </div>
+      <p>Click on the letters!</p>
+      </>
     );
   }
 }

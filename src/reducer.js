@@ -12,7 +12,11 @@ function hReducer(state = defaultState.h, action) {
     console.log('state', state);
     switch (action.type) {
         case 'CHANGE_H':
-        return state + 1;
+            if (state < 5) {
+                return state + 1
+            } else {
+                return 0
+            }
         default:
         return state;
     }
@@ -22,7 +26,11 @@ function eReducer(state = defaultState.e, action) {
     console.log('state', state);
     switch (action.type) {
         case 'CHANGE_E':
-        return state + 1;
+        if (state < 5) {
+                return state + 1
+            } else {
+                return 0
+            }
         default:
         return state;
     }
@@ -32,7 +40,11 @@ function l1Reducer(state = defaultState.l1, action) {
     console.log('state', state);
     switch (action.type) {
         case 'CHANGE_L1':
-        return state + 1;
+        if (state < 5) {
+                return state + 1
+            } else {
+                return 0
+            }
         default:
         return state;
     }
@@ -42,7 +54,11 @@ function l2Reducer(state = defaultState.l2, action) {
     console.log('state', state);
     switch (action.type) {
         case 'CHANGE_L2':
-        return state + 1;
+        if (state < 5) {
+                return state + 1
+            } else {
+                return 0
+            }
         default:
         return state;
     }
@@ -52,7 +68,11 @@ function oReducer(state = defaultState.o, action) {
     console.log('state', state);
     switch (action.type) {
         case 'CHANGE_O':
-        return state + 1;
+        if (state < 5) {
+                return state + 1
+            } else {
+                return 0
+            }
         default:
         return state;
     }

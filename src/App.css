@@ -44,7 +44,7 @@
 }
 
 .red {
-  color: red;
+  color: #E84855;
 }
 
 .orange {
@@ -52,17 +52,17 @@
 }
 
 .yellow {
-  color: yellow;
+  color:#f7f46b;
 }
 
 .green {
-  color: green;
+  color: rgb(53, 187, 82);
 }
 
 .blue {
-  color: blue;
+  color: #61dfd0;
 }
 
 .purple {
-  color: purple;
+  color:#7C77B9;
 }
