@@ -38,5 +38,31 @@
 }
 
 .hello-div {
+  display: flex;
   flex-direction: row;
+  font-size: 96pt;
+}
+
+.red {
+  color: red;
+}
+
+.orange {
+  color: orange;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.green {
+  color: green;
+}
+
+.blue {
+  color: blue;
+}
+
+.purple {
+  color: purple;
 }
